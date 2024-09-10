@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(75, 72, 77);
+  width: 200vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 325px;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px  (0,0,0,0.1);
+  
+
+}
+.input-container{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border: 2px solid #70e6f3;
+  overflow: hidden;
+  border-radius: 100px;
+}
+.cityInput{
+  flex: 1;
+  height: 20px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+.search-Icon{
+  
+  padding: 10px;
+  height: 3px;
+  cursor: pointer;
+}
+.search-Icon img{
+  margin-top: 6px;
+}
+.image{
+  text-align: center;
+  height: 150px;
+  margin-bottom: 10px;
+
+}
+.image img{
+  width:150px;
+  height:160px;
+}
+.temp,.location,.country{
+  margin-top: 5px;
+  font-size: 35px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+.temp{
+  font-weight: 500;
+}
+.location{
+  color:brown;
+  font-weight: 400;
+  font-size: 40px;
+}
+.country{
+  font-size: 18px;
+  color: purple;
+  font-weight: 500;
+}
+.cord{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin: top 10px;
+  text-align: center;
+}
+.cord div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cord div span{
+  font-size: 14px;
+}
+.humidity-percent,
+.wind-percent,
+.cord div span:nth-child(2){
+  font-size: 18px;
+  font-weight: bold;
+  color:chocolate;
+  padding-top: 5px;
+}
+.icon{
+  width: 80px;
+  height:40px
+}
+.data-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.element{
+  text-align: center;
+
+}
+.text{
+  font-size: 12px;
+  color:#888
+}
+.loading-message,
+.city-not-found{
+  margin-top: 10px;
+  color: blue;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
